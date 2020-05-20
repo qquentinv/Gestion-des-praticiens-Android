@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewMatricule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="38dp"
+        android:text="MatriculeVisiteur"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textViewNomVisiteur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="38dp"
+        android:layout_toEndOf="@+id/textViewMatricule"
+        android:layout_toRightOf="@+id/textViewMatricule"
+        android:text="NOMVIS"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/textViewPrenomVisiteur"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignBottom="@+id/textViewMatricule"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="-7dp"
+        android:layout_toEndOf="@+id/textViewNomVisiteur"
+        android:layout_toRightOf="@+id/textViewNomVisiteur"
+        android:text="prenomVis" />
+
+    <TextView
+        android:id="@+id/textViewAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_below="@+id/textViewMatricule"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="260dp"
+        android:text="adresseVis" />
+
+    <TextView
+        android:id="@+id/textViewCp"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAdresse"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_toStartOf="@+id/textViewVille"
+        android:layout_toLeftOf="@+id/textViewVille"
+        android:text="cp" />
+
+    <TextView
+        android:id="@+id/textViewVille"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="35dp"
+
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+
+
+        android:text="VILLE"
+        android:textAllCaps="true" />
+
+</RelativeLayout>
